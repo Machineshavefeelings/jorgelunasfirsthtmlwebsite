@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+		<body style="background-color: silver;">
+
+	<!--Use GET, not POST-->
+	<form method="GET" action="action.php">
+		First name:<input type="text" name="firstname"><br>
+		Last name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required><br>
+		Phone number: <input type="phone number" name="phone number" min="10" required><br>
+		Password: <input type="password" name="password" min="5"><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Experience:<br> 
+		<input type="radio" name="experience" value="Beginner">Beginner<br>
+		<input type="radio" name="experience" value="Intermediate">Intermediate<br>
+		<input type="radio" name="experience" value="Advance">Advance<br>
+		Age: <br>
+		<input type="radio" name="age"> 10-15 years<br>
+		<input type="radio" name="age"> 16-21 years<br>
+		<input type="radio" name="age"> 22-28 years<br>
+		<input type="radio" name="age"> 29-35 years<br>
+
+
+		How do you want to sound? <br>
+		<select name="sound">
+			<option value="rock" name="rock">Rock</option>
+			<option value="jazz" name="jazz">Jazz</option>
+			<option value="funky" name="funky">Funky</option>
+			<option value="hiphop" name="hiphop">Hip Hop</option>
+
+		
+		</select><br>
+		<input type="submit" value="Register!">
+		<input type="reset">
+		<a href="index.html">Return to main page
+
+	</form>
+</body>
+</html>
